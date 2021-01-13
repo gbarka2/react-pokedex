@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.pokedex {
+  grid-template-columns: 2fr 1fr;
+} */
+
+.poke-list {
+  grid-column: 1 / 2
+}
+
+.poke-list-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.card {
+  grid-column: 2 / 3;
+}
